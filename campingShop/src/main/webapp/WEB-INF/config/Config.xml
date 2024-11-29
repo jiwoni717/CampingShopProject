@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<!-- <typeAlias type="com.sist.vo.CategoryVO" alias="CategoryVO"/> -->
+		<typeAlias type="com.sist.vo.RentVO" alias="RentVO"/>
+		<typeAlias type="com.sist.vo.CampVO" alias="CampVO"/>
+		<typeAlias type="com.sist.vo.TourVO" alias="TourVO"/>
+		<typeAlias type="com.sist.vo.ReviewVO" alias="ReviewVO"/>
+		<typeAlias type="com.sist.vo.QnaVO" alias="QnaVO"/>
+		<typeAlias type="com.sist.vo.ReserveVO" alias="ReserveVO"/>
+		<typeAlias type="com.sist.vo.RecipeVO" alias="RecipeVO"/>
+	</typeAliases>
+	<mappers>  
+		<!-- <mapper resource="com/sist/mapper/food-mapper.xml"/> -->
+		<mapper resource="com/sist/mapper/rent-mapper.xml"/>
+		<mapper resource="com/sist/mapper/camp-mapper.xml"/>
+		<mapper resource="com/sist/mapper/qna-mapper.xml"/>
+		<mapper resource="com/sist/mapper/recipe-mapper.xml"/>
+	</mappers>
+</configuration>
